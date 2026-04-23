@@ -38,6 +38,8 @@ Abstracts file references and storage state so upstream plugins do not need to c
 | Package Name | `@plugins/files-core` |
 | Manifest ID | `files-core` |
 | Display Name | Files Core |
+| Domain Group | Content and Experience |
+| Default Category | Content & Experience / Files & Assets |
 | Version | `0.1.0` |
 | Kind | `app` |
 | Trust Tier | `first-party` |
@@ -197,6 +199,7 @@ console.log("action", registerFileAssetAction.id);
 - The plugin owns durable data state, but it does not yet ship a dedicated migration verification lane in this repo.
 - No standalone plugin-owned event, job, or workflow catalog is exported yet; compose it through actions, resources, and the surrounding Gutu runtime.
 - The plugin exposes a UI surface, but not a richer admin workspace contribution module.
+- The repo does not yet export a domain parity catalog with owned entities, reports, settings surfaces, and exception queues.
 
 ### Recommended next
 

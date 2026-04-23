@@ -5,6 +5,12 @@ export default definePackage({
   kind: "app",
   version: "0.1.0",
   displayName: "Files Core",
+  defaultCategory: {
+    id: "content_experience",
+    label: "Content & Experience",
+    subcategoryId: "files_assets",
+    subcategoryLabel: "Files & Assets"
+  },
   description: "File references and storage abstractions.",
   extends: [],
   dependsOn: ["auth-core","org-tenant-core","role-policy-core","audit-core"],
