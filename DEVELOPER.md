@@ -54,6 +54,11 @@ Abstracts file references and storage state so upstream plugins do not need to c
 | Field | Value |
 | --- | --- |
 | Depends On | `auth-core`, `org-tenant-core`, `role-policy-core`, `audit-core` |
+| Recommended Plugins | None |
+| Capability Enhancing | None |
+| Integration Only | None |
+| Suggested Packs | None |
+| Standalone Supported | Yes |
 | Requested Capabilities | `ui.register.admin`, `api.rest.mount`, `data.write.files` |
 | Provides Capabilities | `files.assets` |
 | Owns Data | `files.assets` |
